@@ -44,7 +44,7 @@ sudo pip3 install -r requirements.txt --break-system-packages
 # Create the .env file
 echo "Creating the .env file..."
 cat <<EOL | sudo tee .env
-SECRET_KEY=''
+SECRET_KEY=$(openssl rand -base64 32)
 DEBUG=False
 LOGGER=True
 PORT=5000
