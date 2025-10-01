@@ -19,7 +19,7 @@ sudo apt install -y git
 
 # Install WiFi Hotspot Service
 echo "Installing WiFi Hotspot Service..."
-sudo apt install -y dnsmasq hostapd
+sudo apt install network-manager
 
 # Install UFW and enable port 5000
 echo "Installing UFW and enabling port 5000..."
