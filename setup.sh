@@ -11,7 +11,7 @@ echo "Installing Python 3 and pip..."
 sudo apt install -y python3 python3-pip
 sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 1
 sudo update-alternatives --set python /usr/bin/python3
-
+sudo apt install python3-eventlet python3-flask python3-flask-socketio
 
 # Install Git
 echo "Installing Git..."
