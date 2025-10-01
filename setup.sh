@@ -32,10 +32,10 @@ cd coopsoil || exit
 
 # Set up the virtual environment and install dependencies
 echo "Setting up virtual environment and installing dependencies..."
-python3 -m venv .venv
-source .venv/bin/activate
-pip3 install -r requirements.txt
-deactivate
+# python3 -m venv .venv
+# source .venv/bin/activate
+# pip3 install -r requirements.txt
+# deactivate
 
 # Install dependencies globally
 echo "Installing project dependencies globally..."
